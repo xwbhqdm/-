@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-color: #ccc;
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            border: 5px solid red;
+            /* box-sizing: border-box; */
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- 盒子模型=宽或高 + padding + border -->
+    <div class="box">
+    </div>
+</body>
+<script>
+    let div = document.querySelector('.box').offsetWidth
+    console.log(div);
+</script>
+</html>

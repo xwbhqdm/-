@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 500px;
+            height: 500px;
+            background-color: red;
+            /* position: relative; */
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .content{
+            width: 200px;
+            height: 300px;
+            background-color: #ccc;
+            /* position: absolute; */
+            /* position+margin:auto 固定高度*/
+            /* left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0; */
+            /* margin: auto; */
+            /* positon+margin 固定高度*/
+            /* top: 50%;
+            left: 50%; */
+            /* margin-top: -150px;
+            margin-left: -100px; */
+            /* display:table-cell + vertical-align */
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="content">测试文字</div>
+    </div>
+</body>
+</html>
